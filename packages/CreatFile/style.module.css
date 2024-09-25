@@ -1,0 +1,17 @@
+.input-style {
+  width: 100px;
+}
+
+.tree-node {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.button-node1 {
+  margin-bottom: 16px;
+  margin-left: 50px;
+}
+.button-node2 {
+  margin-bottom: 16px;
+  margin-left: 10px;
+}

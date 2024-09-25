@@ -1,0 +1,21 @@
+@prefix: file-tree;
+
+.@{prefix}-node-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline-end: 6px;
+  &-content {
+    display: flex;
+    flex: 1;
+    gap: 4px;
+  }
+
+  &-operation {
+    display: none;
+  }
+
+  &:hover &-operation {
+    display: block;
+  }
+}
