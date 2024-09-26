@@ -23,5 +23,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "src/CreatFile/index.tsx",
+    "src/CreatFile/useClickOutside.tsx"
+  ]
 }

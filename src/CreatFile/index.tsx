@@ -12,7 +12,7 @@ import {
   DeleteOutlined,
 } from "@ant-design/icons";
 import { uniqueId } from "lodash";
-import useClickOutside from "./useClickOutside";
+import useClickOutside from "./useClickOutside.tsx";
 import "./style.less";
 import classNames from "classnames";
 
